@@ -26,12 +26,18 @@ nav{
     width: 200px;
     padding: 0px 20px;
 }
-.search img{
-    width: 20px;
+nav ul li .search button {
     position: relative;
-    top: 19px;
-    left: 220px;
+    top: 6px;
+    right: 33px;
+    /* border: 2px white; */
 }
+/* nav ul li .search button:hover{
+    border: 5px black;
+} */
+nav ul li .search button img{ 
+    width: 23px;
+} 
 nav ul{
     height: 60px;
     display: flex;
@@ -51,13 +57,13 @@ nav ul li a{
 nav ul li a:hover{
     color: white;
 }
-.search input{
+nav ul li .search input{
     width: 300px;
     height: 30px;
     border-radius: 5px;
     position: relative;
-    top: 15px;
-    left: 250px;
+    /* top: 15px; */
+    /* left: 250px; */
     /* display: flex;
     justify-content: left;
     align-items: center; */
