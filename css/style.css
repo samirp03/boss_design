@@ -28,15 +28,17 @@ nav{
 }
 nav ul li .search button {
     position: relative;
-    top: 6px;
+    top: 4px;
     right: 33px;
-    /* border: 2px white; */
+    padding: 2px;
+    border: 2px solid white;
 }
-/* nav ul li .search button:hover{
+
+nav ul li .search button:{
     border: 5px black;
-} */
+}
 nav ul li .search button img{ 
-    width: 23px;
+    width: 20px;
 } 
 nav ul{
     height: 60px;
@@ -61,13 +63,43 @@ nav ul li .search input{
     width: 300px;
     height: 30px;
     border-radius: 5px;
-    position: relative;
+    padding: 0px 12px;
+
+    /* position: relative; */
     /* top: 15px; */
     /* left: 250px; */
     /* display: flex;
     justify-content: left;
     align-items: center; */
 }
+.slider{
+    margin: 12px auto;
+    width: 74vw;
+    height: 48vh;
+}
+h2{
+    padding-bottom: 5px;
+}
+.card {
+    font-family: var(--main-font);
+    max-width: 91vw;
+    margin: 10px auto;
+}
+.card-item {
+    width: 12vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 39px;
+}
+.card-item p {
+    padding: 2px 0px;
+}
+
+.info {
+    text-align: center;
+}
+
 .container{
     min-height: calc(100vh - 60px - 9vh);
 }
